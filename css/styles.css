@@ -64,3 +64,18 @@ li {
     margin-top: 20px;
     color: #000;
 }
+#menu {
+    padding-top: 20px;
+}
+
+#order-pizza {
+    color: #000;
+}
+
+#list li {
+    font-size: 24px;
+    font-family: system-ui, serif;
+}
+figcaption {
+    font-family: 'Oswald', serif;
+}
