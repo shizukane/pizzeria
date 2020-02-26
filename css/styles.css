@@ -1,0 +1,9 @@
+.piz-pap {
+    font-size: 50px;
+}
+
+ul > .nav-items {
+    display: inline;
+    margin-right: 20px;
+    margin-left: 12px;
+}
