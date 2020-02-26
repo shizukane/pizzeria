@@ -20,7 +20,7 @@
             <ul class="nav-items">
                 <li><a href="#menus">Menu</a></li>
                 <li><a href="#order">Orders</a></li>
-                <li><a href="#contact">Contacts</a></li>
+                <li><a href="#deliveries">Deliveries</a></li>
             </ul>
         </div>
     </nav>
@@ -28,12 +28,13 @@
         <div class="overlay">
             <div id="push"></div>
             <div class="landing-text">
-                <h1 class="text-white text-center"><span class="pizz">Pizza </span><span class="exc">pap!</span></h1>
-                <h2 class="text-white text-center">Get your pizza in an instant.</h2>
+
+                
+                <h2 class="text-white text-center">Make Your Order And Get Your Delivery Instantly.</h2>
             </div>
             <div class="h-buttons text-center">
-                <a href="#order">
-                    <button class="btn bg-info floater  infinite delay-2s">Go</button>
+                <a href="#menu">
+                    <button class="btn bg-info floater  infinite delay-2s">Check Out Our Menu!</button>
                 </a>
                 <div class="socials">
                     <a href=""><span class="fab fa-facebook icon_facebook"></span></a>
@@ -44,15 +45,18 @@
             </div>
         </div>
     </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <div id="menus"></div>
 <br>
+
+<div class="jumbotron">
 <div class="menu col-md-12">
     <div class="menu-overlay">
         <h1 class="text-center text-white" id="menu">Menu</h1>
         <div class="pizza-menu row text-center">
             <figure class="col-sm-4">
-                <img src="images/2.png" alt="small-pizza" class="wiggle">
-                <figcaption class="text-white">Regular<br>Ksh. 300</figcaption>
+                <img src="https://images.pexels.com/photos/1566836/pexels-photo-1566836.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="small-pizza" class="wiggle">
+                <carousel-caption class="text-white">Regular<br>Ksh. 300</carousel-caption>
             </figure>
             <figure class="col-sm-4">
                 <img src="https://images.pexels.com/photos/842519/pexels-photo-842519.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="medium-pizza" class="wiggle">
@@ -63,8 +67,72 @@
                 <figcaption class="text-white">Large<br>Ksh. 1200</figcaption>
             </figure>
         </div>
+    
+        </div>
     </div>
 </div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div id="order"></div> 
+<div class="container">
+<div class="jumbotron">
+    <div class="well">
+            <div class="col-md-6">
+                <h2>Please give us your details to pick your Order </h2>
+                <form action="" id="pizzainfo">
+                    <label for="">Choose your pizza size</label>
+                    <select class="form-control" name="size" id="size">
+                        <option value="1200">Large @ ksh 1200</option>
+                        <option value="900">Medium @ ksh 900</option>
+                        <option value="600">Small @ ksh 600</option>
+                    </select>
+                        <label for="">Choose your Desired toppings</label> <br>
+                        <input value="150" type="checkbox" id="toppingone">Mushrooms
+                        <input value="150" type="checkbox" id="toppingone">Sausage
+                        <input value="150" type="checkbox" id="toppingone">Onions
+                        <input value="150" type="checkbox" id="toppingone">Tikka Sauce
+                        <input value="150" type="checkbox" id="toppingone">Mozarella Cheese
+                        <br><br>
+                        <label for="">Input Quantity</label>
+        
+                        <input class="form-control form-group" type="text" id="numberofpizza">
+                        <button class="btn bg-info floater  infinite delay-2s" type="submit" id="submit" value="Check-Out"
+                            onclick="calctotalPrice()">Submit</button>
+                </div>
+            </div>
+                    </form>
+                </div>
+                </div>
+    </div>
+                </div>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <div id="deliveries"></div>
+<div class="container">
+    <div class="jumbotron">
+    
+                <div class="col-md-6">
+                    <div id="formlocation">
+                        <h3>If you would like your pizza delivered to your place<br> Please Enter your location details below</h3>
+                        <form id="delivery">
+                            <label for="name">Name</label>
+                            <input class="form-control" type="text" name="" id="name" required="required">
+                            <label for="location">Location</label>
+                            <input class="form-control" type="text" id="location" placeholder="location...">
+                            <label for="phonenumber">Phone Number</label>
+                            <input class="form-control" type="tel" placeholder="07xxxxxxxx" id="number"> <br>
+                            <button type="submit" name="button" id="submit">submit</button>
+                        </form>
+                        </div>
+                    </div>
+                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        </div>
+    </div>
+</div>
+                         
     
 </body>
 </html>

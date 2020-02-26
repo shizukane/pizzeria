@@ -7,16 +7,7 @@ ul > .nav-items {
     margin-right: 20px;
     margin-left: 12px;
 }
-@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Love+Ya+Like+A+Sister|Special+Elite&display=swap');
 
-/*
-'Shadows Into Light', cursive
-*/
-* {
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-}
 
 body {
     margin: 0;
@@ -79,3 +70,158 @@ li {
 figcaption {
     font-family: 'Oswald', serif;
 }
+.overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    background-image: url();
+    max-height: 1000px;
+}
+.wiggle{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 100%;
+    border-style: solid;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.jumbotron{
+    background-color: black;
+}
+
+
+
+body{
+    text-align: center;
+    background-image: url("https://images.pexels.com/photos/2029968/pexels-photo-2029968.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+    
+}
+.landing {
+    background-image: url("../images/pizzabg.jpeg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#spantext {
+    color: yellow;
+}
+
+.navi {
+    float: right;
+}
+
+.exc {
+    color: yellow;
+}
+
+
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+
+
+
+
+figcaption {
+    font-family: 'Oswald', serif;
+}
+.contact {
+    padding-top: 20px;
+}
+.go {
+    border-radius: 20px;
+}
+
+.click-me, button[type=submit], .deliver, .delivernot {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    letter-spacing: 2px;
+    background-color: #ffbf00;
+    outline: none;
+    padding: 12.5px 13px;
+    border: none;
+    border-radius: 33px;
+    font-size: 14px;
+}
+
+h4 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+}
+
+
+.order-overlay {
+    height: inherit;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 20px;
+}
+
+
+
+
+.menu {
+    margin-top: 30px;
+    background-image: url("../images/sec/b4.jpg");
+    padding: 0;
+}
+
+#menu {
+    font-family: 'Love Ya Like A Sister', cursive;
+}
+
+.menu-overlay {
+    height: inherit;
+    width: inherit;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+}
+
+#push {
+    padding-top: 10%;
+}
+
+.landing-text {
+    margin-top: 10%;
+}
+
+.landing-text h1, h2 {
+    font-family: 'Love Ya Like A Sister', cursive;
+}
+
+.landing-text h1 {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 60px;
+}
+
+
+a {
+    color: white;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+figure img {
+    height: 260px;
+    width: 260px;
+}
+
+
+    
+   
+    
+    
+
+    
+
