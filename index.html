@@ -36,19 +36,14 @@
                 <a href="#menu">
                     <button class="btn bg-info floater  infinite delay-2s">Check Out Our Menu!</button>
                 </a>
-                <div class="socials">
-                    <a href=""><span class="fab fa-facebook icon_facebook"></span></a>
-                    <a href=""><span class="fab fa-twitter icon_twitter"></span></a>
-                    <a href=""><span class="fab fa-google-plus icon_googlep"></span></a>
-                    <a href=""><span class="fab fa-linkedin icon_linkedin"></span></a>
-                </div>
+               
             </div>
         </div>
     </div>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
     <div id="menus"></div>
 <br>
-
+<div class="container">
 <div class="jumbotron">
 <div class="menu col-md-12">
     <div class="menu-overlay">
@@ -56,7 +51,7 @@
         <div class="pizza-menu row text-center">
             <figure class="col-sm-4">
                 <img src="https://images.pexels.com/photos/1566836/pexels-photo-1566836.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="small-pizza" class="wiggle">
-                <carousel-caption class="text-white">Regular<br>Ksh. 300</carousel-caption>
+                <figcaption class="text-white">Regular<br>Ksh. 300</figcaption>
             </figure>
             <figure class="col-sm-4">
                 <img src="https://images.pexels.com/photos/842519/pexels-photo-842519.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="medium-pizza" class="wiggle">
@@ -67,15 +62,18 @@
                 <figcaption class="text-white">Large<br>Ksh. 1200</figcaption>
             </figure>
         </div>
+    </div>
     
         </div>
     </div>
 </div>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
 <div id="order"></div> 
 <div class="container">
 <div class="jumbotron">
     <div class="well">
+        <div class="row">
             <div class="col-md-6">
                 <h2>Please give us your details to pick your Order </h2>
                 <form action="" id="pizzainfo">
@@ -94,21 +92,12 @@
                         <br><br>
                         <label for="">Input Quantity</label>
         
-                        <input class="form-control form-group" type="text" id="numberofpizza">
+                        <input class="form-control form-group" type="text" id="numberofpizza" required>
                         <button class="btn bg-info floater  infinite delay-2s" type="submit" id="submit" value="Check-Out"
-                            onclick="calctotalPrice()">Submit</button>
-                </div>
-            </div>
+                            onclick="calctotalPrice()">Submit</button>  
+                    </div>
                     </form>
-                </div>
-                </div>
-    </div>
-                </div>
-                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
                 <div id="deliveries"></div>
-<div class="container">
-    <div class="jumbotron">
-    
                 <div class="col-md-6">
                     <div id="formlocation">
                         <h3>If you would like your pizza delivered to your place<br> Please Enter your location details below</h3>
@@ -122,6 +111,11 @@
                             <button type="submit" name="button" id="submit">submit</button>
                         </form>
                         </div>
+                    </div>
+                </div>
+                    </div>
+                    </div>
+                    </div>
                     </div>
                 </div>
                     </div>

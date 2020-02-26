@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
 .piz-pap {
     font-size: 50px;
 }
@@ -38,11 +42,6 @@ body {
 li {
     display: inline;
     margin-right: 20px;
-}
-
-.h-buttons {
-    margin-top: 90px;
-    margin-bottom: 100px;
 }
 
 .h-buttons button {
@@ -92,8 +91,7 @@ figcaption {
 
 body{
     text-align: center;
-    background-image: url("https://images.pexels.com/photos/2029968/pexels-photo-2029968.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
-    
+   
 }
 .landing {
     background-image: url("../images/pizzabg.jpeg");
@@ -132,6 +130,7 @@ figcaption {
 }
 .go {
     border-radius: 20px;
+    padding-bottom: 100px;
 }
 
 .click-me, button[type=submit], .deliver, .delivernot {
@@ -193,17 +192,14 @@ h4 {
 }
 
 .landing-text {
-    margin-top: 10%;
+    margin-top: 15%;
+    margin-bottom: 15%;
 }
 
-.landing-text h1, h2 {
+.landing-text h2 {
     font-family: 'Love Ya Like A Sister', cursive;
 }
 
-.landing-text h1 {
-    font-family: 'Gloria Hallelujah', cursive;
-    font-size: 60px;
-}
 
 
 a {
