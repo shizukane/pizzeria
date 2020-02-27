@@ -2,28 +2,21 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-.piz-pap {
-    font-size: 50px;
-}
 
 ul > .nav-items {
     display: inline;
     margin-right: 20px;
     margin-left: 12px;
 }
-
-
 body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
     color: #ffffff;
 }
-
 #spantext {
     color: yellow;
 }
-
 .navi {
     float: right;
 }
@@ -32,13 +25,12 @@ body {
     color: yellow;
 }
 
-#piz-pap {
-    font-family: 'Shadows Into Light', cursive;
-    font-size: 35px;
-    font-weight: normal;
+#darol {
+    font-style: italic;
+    font-size: 55px;
+    font-weight: lighter;
     color: darkorange;
 }
-
 li {
     display: inline;
     margin-right: 20px;
@@ -48,25 +40,16 @@ li {
     border-radius: 40px;
     color: black;
 }
-
-.menu-btn {
-    border-radius: 20px;
-    margin-top: 20px;
-    color: #000;
+.h-buttons{
+    padding-bottom: 10%;
 }
+
+
 #menu {
     padding-top: 20px;
 }
 
-#order-pizza {
-    color: #000;
-}
-
-#list li {
-    font-size: 24px;
-    font-family: system-ui, serif;
-}
-figcaption {
+.figcaption {
     font-family: 'Oswald', serif;
 }
 .overlay {
@@ -86,53 +69,23 @@ figcaption {
 .jumbotron{
     background-color: black;
 }
-
-
-
-body{
+.body{
     text-align: center;
-   
+  
 }
-.landing {
-    background-image: url("../images/pizzabg.jpeg");
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-}
-
 #spantext {
     color: yellow;
 }
-
-.navi {
-    float: right;
-}
-
 .exc {
     color: yellow;
 }
-
-
-
-li {
+.li {
     display: inline;
     margin-right: 20px;
 }
-
-
-
-
-figcaption {
+.figcaption {
     font-family: 'Oswald', serif;
 }
-.contact {
-    padding-top: 20px;
-}
-.go {
-    border-radius: 20px;
-    padding-bottom: 100px;
-}
-
 .click-me, button[type=submit], .deliver, .delivernot {
     color: #fff;
     text-decoration: none;
@@ -146,75 +99,34 @@ figcaption {
     border-radius: 33px;
     font-size: 14px;
 }
-
-h4 {
-    margin: 0;
-    padding: 0;
-    font-family: 'Montserrat', sans-serif;
-    letter-spacing: 1px;
-}
-
-
-.order-overlay {
-    height: inherit;
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.9);
-    border-radius: 20px;
-}
-
-
-
-
-.menu {
-    margin-top: 30px;
-    background-image: url("../images/sec/b4.jpg");
-    padding: 0;
-}
-
 #menu {
     font-family: 'Love Ya Like A Sister', cursive;
 }
-
-.menu-overlay {
-    height: inherit;
-    width: inherit;
-    background-color: rgba(0, 0, 0, 0.7);
-}
-
-
-.overlay {
-    background-color: rgba(0, 0, 0, 0.7);
-    height: 100%;
-}
-
 #push {
     padding-top: 10%;
 }
-
 .landing-text {
     margin-top: 15%;
-    margin-bottom: 15%;
+    margin-bottom: 15%;  
 }
-
 .landing-text h2 {
     font-family: 'Love Ya Like A Sister', cursive;
 }
-
-
-
+.landing{
+    background-image: url(https://images.pexels.com/photos/1653877/pexels-photo-1653877.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-size: cover;
+}
 a {
     color: white;
     font-size: 18px;
     font-weight: normal;
+    font-style: italic;
 }
-
 figure img {
     height: 260px;
     width: 260px;
 }
 
-
-    
    
     
     
