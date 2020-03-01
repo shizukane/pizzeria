@@ -29,7 +29,10 @@ body {
     font-weight: lighter;
     color: darkorange;
 }
-
+li {
+    display: inline;
+    margin-right: 20px;
+}
 
 .h-buttons button {
     border-radius: 40px;
@@ -70,12 +73,9 @@ body {
   
 }
 
-.li {
-    display: inline;
-    margin-right: 20px;
-}
+
 .figcaption {
-    font-family: 'Oswald', serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .click-me, button[type=submit], .deliver, .delivernot {
     color: #fff;
