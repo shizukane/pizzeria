@@ -54,7 +54,7 @@ function mozarellaCheese() {
     }
     return parseInt(cheese);
 }
-
+ 
 function calctotalPrice(e) {
     event.preventDefault();
     var totalPrice = (getSizeCost() + getCrustCost() + mushrooms()) * (getNumber());
